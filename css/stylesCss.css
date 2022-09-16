@@ -174,22 +174,20 @@ body {
       justify-content: center;
       height: 90%;
       align-items: center; }
-      body main .containerMain .containerMain__img {
-        width: 28%; }
-        body main .containerMain .containerMain__img .body__img {
-          width: 15em;
-          animation: imgAnimation 3s ease-in-out;
-          border-radius: 4px;
-          box-shadow: 5px 6px 11px #393b3c;
-          opacity: 0;
-          transition: .7s ease-in-out all; }
-        body main .containerMain .containerMain__img .left {
-          transform: translateX(-50px) scale(0.8); }
-        body main .containerMain .containerMain__img .body__img:hover {
-          box-shadow: 13px 13px 15px #393b3c; }
-        body main .containerMain .containerMain__img .visible {
-          opacity: 1 !important;
-          transform: scale(1.03) translateX(53px); }
+      body main .containerMain .containerMain__img .body__img {
+        width: 15em;
+        animation: imgAnimation 3s ease-in-out;
+        border-radius: 4px;
+        box-shadow: 5px 6px 11px #393b3c;
+        opacity: 0;
+        transition: .7s ease-in-out all; }
+      body main .containerMain .containerMain__img .left {
+        transform: translateX(-196px) scale(0.8); }
+      body main .containerMain .containerMain__img .body__img:hover {
+        box-shadow: 13px 13px 15px #393b3c; }
+      body main .containerMain .containerMain__img .visible {
+        opacity: 1 !important;
+        transform: scale(1.03) translateX(-32px); }
       body main .containerMain .containerMain__info {
         width: 50%; }
         body main .containerMain .containerMain__info h3 {
@@ -229,7 +227,7 @@ body {
       transition: .7s ease-in-out all; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text {
         width: 35%;
-        height: 100%;
+        height: auto;
         margin-top: 5%; }
         body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text h2 {
           font-weight: 300;
@@ -288,7 +286,10 @@ body {
         font-size: 24px; }
 
 /*RESPONSIVE*/
-@media only screen and (max-width: 1349px) {
+@media only screen and (min-width: 1324px) and (max-width: 1448px) {
+  h1 {
+    text-align: left;
+    font-size: 5em; }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img--trait:hover {
     transform: scale(1.1) translate(34px, -35px); }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
@@ -307,9 +308,16 @@ body {
     display: flex;
     /* background-image: linear-gradient(-225deg, #d3d5d5, #a7aaaf 29%, #a9d1e6 67%, #c9cfd4); */
     position: fixed;
-    width: 100%;
+    backdrop-filter: blur(15px);
+    /* background: rgba(0,0,0,.3); */
+    width: 20em;
+    margin: auto;
+    justify-content: space-evenly;
+    bottom: 1em;
+    left: 23%;
+    border-radius: 14px;
     flex-direction: row;
-    background: #3c1515;
+    background: #1b1212a3;
     margin-top: 0%; }
     body header .firma {
       margin: 15px 10px; }
@@ -326,8 +334,8 @@ body {
     flex-direction: column;
     height: 65em; }
     body .containerPresentation .containerPresentation__info {
-      width: 34em;
-      margin-top: 20%; }
+      width: max-content;
+      margin-top: 7em; }
     body .containerPresentation .containerPresentation__mobiles {
       width: auto;
       margin-top: 84px;
@@ -365,18 +373,28 @@ body {
           transform: translateX(-155px) scale(0.8); }
         body main .containerMain .containerMain__img .visible {
           opacity: 1 !important;
-          transform: scale(1.03) translateX(-36px); }
+          transform: scale(1.03) translateX(5px); }
       body main .containerMain .containerMain__info {
         width: 90%; }
     body main .containerDevicons {
       flex-wrap: wrap; }
   body .portfolioContainer .portfolioContainer__project {
     flex-direction: column;
-    height: 76em; }
+    height: auto; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text {
       width: 90%;
       height: 100%;
       margin-top: 5%; }
+    body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
+      background-size: 45em; }
+    body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
+      background-size: 45em; }
+    body .portfolioContainer .portfolioContainer__project .stoneFondo-image {
+      background-size: 45em; }
+    body .portfolioContainer .portfolioContainer__project .creativaFondo-image {
+      background-size: 45em; }
+    body .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
+      background-size: 45em; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
       width: 100%;
       order: -1; }
@@ -389,13 +407,14 @@ body {
     font-size: 5em; }
   h3 {
     font-size: 28px; }
+  body header {
+    left: 11%; }
   body .containerPresentation {
     height: 57em; }
     body .containerPresentation .containerPresentation__info {
-      width: 29em;
-      /* margin: 17% 5%; */
-      margin-top: 12%;
-      padding: 11%; }
+      width: max-content;
+      margin: 17% 5%;
+      margin-top: 7em; }
     body .containerPresentation .containerPresentation__mobiles {
       margin-top: 12px; }
       body .containerPresentation .containerPresentation__mobiles img {
@@ -410,13 +429,23 @@ body {
     height: 67em; }
     body main .containerMain .containerMain__img .visible {
       opacity: 1 !important;
-      transform: scale(1.03) translateX(-58px); }
+      transform: scale(1.03) translateX(0px); }
     body main .containerDevicons .containerDevicons__icon {
       z-index: 3;
       width: 4em; }
   body .portfolioContainer .portfolioContainer__project {
     flex-direction: column;
-    height: 86em; }
+    height: auto; }
+    body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
+      background-size: 32em; }
+    body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
+      background-size: 32em; }
+    body .portfolioContainer .portfolioContainer__project .stoneFondo-image {
+      background-size: 32em; }
+    body .portfolioContainer .portfolioContainer__project .creativaFondo-image {
+      background-size: 32em; }
+    body .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
+      background-size: 32em; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
       width: 100%;
       order: -1;
@@ -447,7 +476,17 @@ body {
       padding: 0em; }
   body body .portfolioContainer .portfolioContainer__project {
     flex-direction: column;
-    height: 82em; }
+    height: auto; }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
     height: 158px;
-    margin: 19% 7%; } }
+    margin: 19% 7%; }
+  body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
+    background-size: 25em; }
+  body .selvageFondo-image {
+    background-size: 25em; }
+  body .stoneFondo-image {
+    background-size: 25em; }
+  body .creativaFondo-image {
+    background-size: 25em; }
+  body .ilserranoFondo-image {
+    background-size: 25em; } }

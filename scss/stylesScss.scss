@@ -206,7 +206,7 @@ body{
              // CONTAINER MAIN IMG
             .containerMain__img{
                 
-                width: 28%;
+                // width: 21em;
     
                 .body__img{
                     width: 15em;           
@@ -221,7 +221,7 @@ body{
                 }
 
                 .left{
-                    transform: translateX(-50px) scale(0.8);
+                    transform: translateX(-196px) scale(0.8);
                 }
 
                 .body__img:hover{                                      
@@ -229,7 +229,7 @@ body{
                 }
                 .visible{
                     opacity: 1 !important;
-                    transform: scale(1.03) translateX(53px);    
+                    transform: scale(1.03) translateX(-32px); 
                 }
 
             }
@@ -322,7 +322,7 @@ body{
             .portfolioContainer__project__text{
             
                 width: 35%;
-                height: 100%;
+                height: auto;
                 margin-top: 5%;
                
                 h2{
