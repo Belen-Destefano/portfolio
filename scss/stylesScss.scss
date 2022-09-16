@@ -85,8 +85,8 @@ body{
 
         // CONTAINER PRESENTATION INGO 
         .containerPresentation__info{
-            width: 29em;
-            margin: 5em;
+            width: auto;
+            margin: 7em;
             h1{
                 margin: 4% 0%;
             }
@@ -125,34 +125,35 @@ body{
         // CONTAINER PRESENTATION MOBILE
         .containerPresentation__mobiles{
 
-            width: 29em;
+            display: flex;
+            flex-direction: row;
+            width: 56%;
+
             .mobile1{
-                padding-top: 3em;
-                position: absolute;
-                right: 10em;
+
                 transition: all 1s;
+                transform: translate(100px, 41px);
                
             }
             .mobile2{
-                padding-top: 6em;
-                z-index: 1;
+              
                 animation: animationMobile infinite ease-in-out 3s 0s;
+                z-index: 2;
             }
             .mobile3{
-                padding-top: 4em;
-                position: absolute;
-                right: 30em;
+               
                 transition: all 1s;
+                transform: translate(-101px, 72px);
             }
 
             .mobile3:hover{
-                transform: translate(-125px, -50px)  scale(0.90);
+                transform: translate(-10px, -70px) scale(0.9);
                 
                 
             }
 
             .mobile1:hover{
-                transform: translate(100px, -30px) scale(0.90);
+                transform: translate(-10px, -70px) scale(0.9);
             }
 
             @keyframes animationMobile {

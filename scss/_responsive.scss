@@ -19,17 +19,7 @@
         margin: 24% 5%;
     }
 
-    body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
-        transform: translate(-71px, -63px) scale(0.8);
-    }
-
-    body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
-        transform: translate(140px, -70px) scale(0.8);
-    }
-
-    // .mobile1:hover{
-    //     transform: translate(100px, -500px) scale(0.90);
-    // }
+  
 
 }
 
@@ -78,31 +68,39 @@
             display: flex;
             justify-content: space-around;
             flex-direction: column;
-            height: 65em;
+            height: auto;
 
             .containerPresentation__info {
                 width: max-content;
-                margin: 5em;
+                margin: 2em;
             }
 
             .containerPresentation__mobiles {
                 width: auto;
-                // margin-top: 84px;
-                height: 55%;
+                margin: 2em;
+             
                 img{
 
                     width:  10em;
                 }
                 .mobile1{
-                    right: 8em;
-                    bottom: 13em;
+                    transform: translate(43px, -44px);
                 }
                 .mobile2 {
                     padding: 0em;
                 }
                .mobile3 {
-                    bottom: 14em;
-                    right: 19em;
+                    transform: translate(-48px, -26px);
+                }
+
+                .mobile1:hover{
+                    transform: translate(-10px, -60px) scale(0.9);                   
+                    
+                }
+
+                .mobile3:hover{
+                    transform: translate(10px, -100px) scale(0.9);                   
+                    
                 }
             }
         }   
@@ -199,26 +197,28 @@
     body{
         header {          
             left: 11%;
+            bottom: 3em;
         }
        .containerPresentation{
-            height: 57em;
+        
             .containerPresentation__info {
                 width: max-content;
            
             }
             .containerPresentation__mobiles{
-                margin-top: 12px;
+                // width: auto;
+                // margin: 2em;
                 img{
                     width: 9em;
                 }
-                .mobile1 {
-                    right: 3em;
-                    bottom: 8em;
+                .mobile1:hover{
+                    transform: translate(10px, -60px) scale(0.8);                   
+                    
                 }
 
-                .mobile3 {
-                    bottom: 6em;
-                    right: 14em;
+                .mobile3:hover{
+                    transform: translate(-10px, -100px) scale(0.8);                   
+                    
                 }
                 
             } 
@@ -307,23 +307,25 @@
 
         .containerPresentation {
             .containerPresentation__info{
-                width: 22em;
-               margin:5em
+        
+                margin: 2em;
             }
 
            .containerPresentation__mobiles {
-                margin-top: 33px;
-                .mobile1 {
-                    right: 1em;
-                    bottom: -5em;
-                }
-                .mobile3 {
-                    bottom: -4em;
-                    right: 12em;
-                }
-                .mobile2 {
-                    padding: 0em;
-                }
+
+                img{width: 7em;}
+                // margin-top: 33px;
+                // .mobile1 {
+                //     right: 1em;
+                //     bottom: -5em;
+                // }
+                // .mobile3 {
+                //     bottom: -4em;
+                //     right: 12em;
+                // }
+                // .mobile2 {
+                //     padding: 0em;
+                // }
             }
         }
 
@@ -343,16 +345,16 @@
             background-size: 25em;
         }
 
-        .selvageFondo-image {
+        .portfolioContainer .portfolioContainer__project .selvageFondo-image {
             background-size: 25em;
         }
-        .stoneFondo-image {
+        .portfolioContainer .portfolioContainer__project .stoneFondo-image {
             background-size: 25em;
         }
-        .creativaFondo-image {
+        .portfolioContainer .portfolioContainer__project .creativaFondo-image {
             background-size: 25em;
         }
-        .ilserranoFondo-image {
+        .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
             background-size: 25em;
         }
 

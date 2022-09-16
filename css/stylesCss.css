@@ -100,8 +100,8 @@ body {
     height: 46em;
     background: radial-gradient(circle, #96584e 0%, #1a0a0a 100%); }
     body .containerPresentation .containerPresentation__info {
-      width: 29em;
-      margin: 5em; }
+      width: auto;
+      margin: 7em; }
       body .containerPresentation .containerPresentation__info h1 {
         margin: 4% 0%; }
       body .containerPresentation .containerPresentation__info h3 {
@@ -125,25 +125,22 @@ body {
       body .containerPresentation .containerPresentation__info .containerPresentation__btn:hover a {
         color: white; }
     body .containerPresentation .containerPresentation__mobiles {
-      width: 29em; }
+      display: flex;
+      flex-direction: row;
+      width: 56%; }
       body .containerPresentation .containerPresentation__mobiles .mobile1 {
-        padding-top: 3em;
-        position: absolute;
-        right: 10em;
-        transition: all 1s; }
+        transition: all 1s;
+        transform: translate(100px, 41px); }
       body .containerPresentation .containerPresentation__mobiles .mobile2 {
-        padding-top: 6em;
-        z-index: 1;
-        animation: animationMobile infinite ease-in-out 3s 0s; }
+        animation: animationMobile infinite ease-in-out 3s 0s;
+        z-index: 2; }
       body .containerPresentation .containerPresentation__mobiles .mobile3 {
-        padding-top: 4em;
-        position: absolute;
-        right: 30em;
-        transition: all 1s; }
+        transition: all 1s;
+        transform: translate(-101px, 72px); }
       body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
-        transform: translate(-125px, -50px) scale(0.9); }
+        transform: translate(-10px, -70px) scale(0.9); }
       body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
-        transform: translate(100px, -30px) scale(0.9); }
+        transform: translate(-10px, -70px) scale(0.9); }
 
 @keyframes animationMobile {
   0% {
@@ -292,11 +289,7 @@ body {
     box-shadow: -7px 10px 9px #10161759;
     border-radius: 4px;
     transition: all 0.5s;
-    margin: 24% 5%; }
-  body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
-    transform: translate(-71px, -63px) scale(0.8); }
-  body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
-    transform: translate(140px, -70px) scale(0.8); } }
+    margin: 24% 5%; } }
 
 @media only screen and (max-width: 576px) {
   p {
@@ -331,23 +324,25 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 65em; }
+    height: auto; }
     body .containerPresentation .containerPresentation__info {
       width: max-content;
-      margin: 5em; }
+      margin: 2em; }
     body .containerPresentation .containerPresentation__mobiles {
       width: auto;
-      height: 55%; }
+      margin: 2em; }
       body .containerPresentation .containerPresentation__mobiles img {
         width: 10em; }
       body .containerPresentation .containerPresentation__mobiles .mobile1 {
-        right: 8em;
-        bottom: 13em; }
+        transform: translate(43px, -44px); }
       body .containerPresentation .containerPresentation__mobiles .mobile2 {
         padding: 0em; }
       body .containerPresentation .containerPresentation__mobiles .mobile3 {
-        bottom: 14em;
-        right: 19em; }
+        transform: translate(-48px, -26px); }
+      body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
+        transform: translate(-10px, -60px) scale(0.9); }
+      body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
+        transform: translate(10px, -100px) scale(0.9); }
   body main {
     background: radial-gradient(circle, #8e8484 0%, #262525 90%);
     display: flex;
@@ -406,21 +401,16 @@ body {
   h3 {
     font-size: 28px; }
   body header {
-    left: 11%; }
-  body .containerPresentation {
-    height: 57em; }
-    body .containerPresentation .containerPresentation__info {
-      width: max-content; }
-    body .containerPresentation .containerPresentation__mobiles {
-      margin-top: 12px; }
-      body .containerPresentation .containerPresentation__mobiles img {
-        width: 9em; }
-      body .containerPresentation .containerPresentation__mobiles .mobile1 {
-        right: 3em;
-        bottom: 8em; }
-      body .containerPresentation .containerPresentation__mobiles .mobile3 {
-        bottom: 6em;
-        right: 14em; }
+    left: 11%;
+    bottom: 3em; }
+  body .containerPresentation .containerPresentation__info {
+    width: max-content; }
+  body .containerPresentation .containerPresentation__mobiles img {
+    width: 9em; }
+  body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
+    transform: translate(10px, -60px) scale(0.8); }
+  body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
+    transform: translate(-10px, -100px) scale(0.8); }
   body main {
     height: 67em; }
     body main .containerMain .containerMain__img .visible {
@@ -464,18 +454,9 @@ body {
   body header {
     left: 7%; }
   body .containerPresentation .containerPresentation__info {
-    width: 22em;
-    margin: 5em; }
-  body .containerPresentation .containerPresentation__mobiles {
-    margin-top: 33px; }
-    body .containerPresentation .containerPresentation__mobiles .mobile1 {
-      right: 1em;
-      bottom: -5em; }
-    body .containerPresentation .containerPresentation__mobiles .mobile3 {
-      bottom: -4em;
-      right: 12em; }
-    body .containerPresentation .containerPresentation__mobiles .mobile2 {
-      padding: 0em; }
+    margin: 2em; }
+  body .containerPresentation .containerPresentation__mobiles img {
+    width: 7em; }
   body .portfolioContainer .portfolioContainer__project {
     flex-direction: column;
     height: auto; }
@@ -484,11 +465,11 @@ body {
     margin: 19% 7%; }
   body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
     background-size: 25em; }
-  body .selvageFondo-image {
+  body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
     background-size: 25em; }
-  body .stoneFondo-image {
+  body .portfolioContainer .portfolioContainer__project .stoneFondo-image {
     background-size: 25em; }
-  body .creativaFondo-image {
+  body .portfolioContainer .portfolioContainer__project .creativaFondo-image {
     background-size: 25em; }
-  body .ilserranoFondo-image {
+  body .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
     background-size: 25em; } }
