@@ -94,12 +94,12 @@
                 }
 
                 .mobile1:hover{
-                    transform: translate(-10px, -60px) scale(0.9);                   
+                    transform: translate(-10px, -60px) ;                   
                     
                 }
 
                 .mobile3:hover{
-                    transform: translate(10px, -100px) scale(0.9);                   
+                    transform: translate(10px, -100px) ;                   
                     
                 }
             }
@@ -153,30 +153,39 @@
                 .portfolioContainer__project__text {
                     width: 90%;
                     height: 100%;
-                    margin-top: 5%;
+                    margin-top: 0%;
+                    h2{
+                        margin-top: 0px;
+                        margin-bottom: 5px;
+                    }
+
+                    h3{
+                        margin-bottom: 15px;
+                    }
                 }
                 .tecnoFondo-image {          
-                    background-size: 45em;
+                    background: none;
                 }
                 .selvageFondo-image {
-                    background-size: 45em;
+                    background: none;
                 }
                 .stoneFondo-image {
-                    background-size: 45em;
+                    background: none;
                 }
                 .creativaFondo-image {
-                    background-size: 45em;
+                    background: none;
                 }
                 .ilserranoFondo-image {
-                    background-size: 45em;
+                    background: none;
                 }
                 
                .portfolioContainer__project__img {
                     width: 100%;
                     order: -1;
+                   
                     .portfolioContainer__project__img--trait {
-                        height: 248px;
-                        margin: 19% 8%;      
+                        height: 259px;
+                        margin: 6% 6%
                     }
                 }
             }
@@ -212,12 +221,12 @@
                     width: 9em;
                 }
                 .mobile1:hover{
-                    transform: translate(10px, -60px) scale(0.8);                   
+                    transform: translate(10px, -60px) scale(0.9) ;                   
                     
                 }
 
                 .mobile3:hover{
-                    transform: translate(-10px, -100px) scale(0.8);                   
+                    transform: translate(-10px, -80px) scale(0.9) ;                   
                     
                 }
                 
@@ -248,29 +257,15 @@
             flex-direction: column;
             height: auto;
 
-            .tecnoFondo-image {
-                background-size: 32em;
-            }
-            .selvageFondo-image {
-                background-size: 32em;
-            }
-            .stoneFondo-image {
-                background-size: 32em;
-            }
-            .creativaFondo-image {
-                background-size: 32em;
-            }
-            .ilserranoFondo-image {
-                background-size: 32em;
-            }
+           
     
             .portfolioContainer__project__img {
                 width: 100%;
                 order: -1;
-                height: 342px;
+               
                 .portfolioContainer__project__img--trait {
                     height: 183px;
-                    margin: 19% 7%;
+                    margin: 8% 7%;
                 }
             }
     
@@ -314,18 +309,18 @@
            .containerPresentation__mobiles {
 
                 img{width: 7em;}
-                // margin-top: 33px;
-                // .mobile1 {
-                //     right: 1em;
-                //     bottom: -5em;
-                // }
-                // .mobile3 {
-                //     bottom: -4em;
-                //     right: 12em;
-                // }
-                // .mobile2 {
-                //     padding: 0em;
-                // }
+
+                .mobile1:hover{
+                    transform: translate(0px, -60px) scale(0.9) ;                   
+                    
+                }
+
+                .mobile3:hover{
+                    transform: translate(5px, -80px) scale(0.9) ;                   
+                    
+                }
+
+             
             }
         }
 
@@ -337,7 +332,7 @@
 
         .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
             height: 158px;
-            margin: 19% 7%;
+            margin: 10% 7%;
         }
 
 

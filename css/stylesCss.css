@@ -100,8 +100,8 @@ body {
     height: 46em;
     background: radial-gradient(circle, #96584e 0%, #1a0a0a 100%); }
     body .containerPresentation .containerPresentation__info {
-      width: auto;
-      margin: 7em; }
+      width: 40%;
+      margin-left: 9em; }
       body .containerPresentation .containerPresentation__info h1 {
         margin: 4% 0%; }
       body .containerPresentation .containerPresentation__info h3 {
@@ -127,7 +127,7 @@ body {
     body .containerPresentation .containerPresentation__mobiles {
       display: flex;
       flex-direction: row;
-      width: 56%; }
+      width: 64%; }
       body .containerPresentation .containerPresentation__mobiles .mobile1 {
         transition: all 1s;
         transform: translate(100px, 41px); }
@@ -179,7 +179,7 @@ body {
         box-shadow: 13px 13px 15px #393b3c; }
       body main .containerMain .containerMain__img .visible {
         opacity: 1 !important;
-        transform: scale(1.03) translateX(-32px); }
+        transform: scale(1) translateX(-32px); }
       body main .containerMain .containerMain__info {
         width: 50%; }
         body main .containerMain .containerMain__info h3 {
@@ -266,7 +266,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      height: 30%; }
+      height: 55%; }
       body #contact .contactFlex .contactContainer {
         display: flex;
         flex-direction: row;
@@ -340,9 +340,9 @@ body {
       body .containerPresentation .containerPresentation__mobiles .mobile3 {
         transform: translate(-48px, -26px); }
       body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
-        transform: translate(-10px, -60px) scale(0.9); }
+        transform: translate(-10px, -60px); }
       body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
-        transform: translate(10px, -100px) scale(0.9); }
+        transform: translate(10px, -100px); }
   body main {
     background: radial-gradient(circle, #8e8484 0%, #262525 90%);
     display: flex;
@@ -377,23 +377,28 @@ body {
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text {
       width: 90%;
       height: 100%;
-      margin-top: 5%; }
+      margin-top: 0%; }
+      body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text h2 {
+        margin-top: 0px;
+        margin-bottom: 5px; }
+      body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text h3 {
+        margin-bottom: 15px; }
     body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
-      background-size: 45em; }
+      background: none; }
     body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
-      background-size: 45em; }
+      background: none; }
     body .portfolioContainer .portfolioContainer__project .stoneFondo-image {
-      background-size: 45em; }
+      background: none; }
     body .portfolioContainer .portfolioContainer__project .creativaFondo-image {
-      background-size: 45em; }
+      background: none; }
     body .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
-      background-size: 45em; }
+      background: none; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
       width: 100%;
       order: -1; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
-        height: 248px;
-        margin: 19% 8%; } }
+        height: 259px;
+        margin: 6% 6%; } }
 
 @media only screen and (max-width: 412px) {
   h1 {
@@ -408,9 +413,9 @@ body {
   body .containerPresentation .containerPresentation__mobiles img {
     width: 9em; }
   body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
-    transform: translate(10px, -60px) scale(0.8); }
+    transform: translate(10px, -60px) scale(0.9); }
   body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
-    transform: translate(-10px, -100px) scale(0.8); }
+    transform: translate(-10px, -80px) scale(0.9); }
   body main {
     height: 67em; }
     body main .containerMain .containerMain__img .visible {
@@ -422,23 +427,12 @@ body {
   body .portfolioContainer .portfolioContainer__project {
     flex-direction: column;
     height: auto; }
-    body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
-      background-size: 32em; }
-    body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
-      background-size: 32em; }
-    body .portfolioContainer .portfolioContainer__project .stoneFondo-image {
-      background-size: 32em; }
-    body .portfolioContainer .portfolioContainer__project .creativaFondo-image {
-      background-size: 32em; }
-    body .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
-      background-size: 32em; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
       width: 100%;
-      order: -1;
-      height: 342px; }
+      order: -1; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
         height: 183px;
-        margin: 19% 7%; } }
+        margin: 8% 7%; } }
 
 @media only screen and (max-width: 360px) {
   h3 {
@@ -457,12 +451,16 @@ body {
     margin: 2em; }
   body .containerPresentation .containerPresentation__mobiles img {
     width: 7em; }
+  body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
+    transform: translate(0px, -60px) scale(0.9); }
+  body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
+    transform: translate(5px, -80px) scale(0.9); }
   body .portfolioContainer .portfolioContainer__project {
     flex-direction: column;
     height: auto; }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
     height: 158px;
-    margin: 19% 7%; }
+    margin: 10% 7%; }
   body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
     background-size: 25em; }
   body .portfolioContainer .portfolioContainer__project .selvageFondo-image {

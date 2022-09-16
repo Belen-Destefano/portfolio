@@ -85,8 +85,8 @@ body{
 
         // CONTAINER PRESENTATION INGO 
         .containerPresentation__info{
-            width: auto;
-            margin: 7em;
+            width: 40%;
+            margin-left: 9em;
             h1{
                 margin: 4% 0%;
             }
@@ -127,7 +127,7 @@ body{
 
             display: flex;
             flex-direction: row;
-            width: 56%;
+            width: 64%;
 
             .mobile1{
 
@@ -224,7 +224,7 @@ body{
                 }
                 .visible{
                     opacity: 1 !important;
-                    transform: scale(1.03) translateX(-32px); 
+                    transform: scale(1.00) translateX(-32px); 
                 }
 
             }
@@ -401,7 +401,7 @@ body{
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            height: 30%;
+            height: 55%;
 
             .contactContainer{
                 display: flex;
@@ -418,6 +418,27 @@ body{
                 font-size: 24px;
             }
         }
+
+        // .breadCrumb{
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: center;
+
+        //     a{
+        //         font-size: 24px;
+        //         color: #3c1515;
+        //         font-weight: 500;
+        //         margin: 20px;
+        //         text-decoration: none;
+
+        //         transition: all 0.2s ease-in;
+        //     }
+
+        //     a:hover{
+        //         transform: scale(1.10)
+        //     }
+
+        // }
     }
 }
 
