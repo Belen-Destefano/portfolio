@@ -35,6 +35,12 @@
 
 @media only screen and (max-width : 576px){
     // BLOQUE 1////////////////////////////////////////////////////
+
+    p {
+        font-size: 23px;
+        color: whitesmoke;
+        font-weight: 100;
+    }
    
     body{
         
@@ -76,12 +82,12 @@
 
             .containerPresentation__info {
                 width: max-content;
-                margin-top: 7em;
+                margin: 5em;
             }
 
             .containerPresentation__mobiles {
                 width: auto;
-                margin-top: 84px;
+                // margin-top: 84px;
                 height: 55%;
                 img{
 
@@ -198,8 +204,7 @@
             height: 57em;
             .containerPresentation__info {
                 width: max-content;
-                margin: 17% 5%;
-                margin-top: 7em;
+           
             }
             .containerPresentation__mobiles{
                 margin-top: 12px;
@@ -277,6 +282,15 @@
 
 
 @media only screen and (max-width : 360px){
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 21px;
+        color: whitesmoke;
+        font-weight: 100;
+    }
 
     body{
         h1 {
@@ -287,12 +301,14 @@
             font-size: 40px;
         }
 
+       header {
+            left: 7%;
+        }
+
         .containerPresentation {
             .containerPresentation__info{
                 width: 22em;
-                /* margin: 17% 5%; */
-                margin-top: 27%;
-                padding: 5%;
+               margin:5em
             }
 
            .containerPresentation__mobiles {
@@ -311,7 +327,7 @@
             }
         }
 
-        body .portfolioContainer .portfolioContainer__project {
+       .portfolioContainer .portfolioContainer__project {
             flex-direction: column;
             // height: 82em;
             height: auto;

@@ -26,15 +26,9 @@ h1{
         
     // font-size: 6em;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    /* color: whitesmoke; */
-    background-image: linear-gradient(-225deg,#d3d5d5,#a7aaaf 29%,#a9d1e6 67%,#c9cfd4);
-    letter-spacing: -4px;
-  
+    font-weight: 300; 
+    color: whitesmoke;    
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
 }
 
 
@@ -92,7 +86,7 @@ body{
         // CONTAINER PRESENTATION INGO 
         .containerPresentation__info{
             width: 29em;
-            margin-top: 3%;
+            margin: 5em;
             h1{
                 margin: 4% 0%;
             }
