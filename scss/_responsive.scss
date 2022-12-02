@@ -1,14 +1,15 @@
 /*RESPONSIVE*/
 
-@media only screen and (min-width : 1324px) and (max-width : 1448px){
+// @media only screen and (min-width : 1324px) and (max-width : 1448px){
 
+@media only screen and (min-width : 1365px) and (max-width : 2500px){
     h1 {
         text-align: left;
         font-size: 5em;
     }
 
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img--trait:hover {
-        transform: scale(1.1) translate(34px, -35px);
+        transform: rotate(3deg) ;
     }
 
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
@@ -19,11 +20,95 @@
         margin: 24% 5%;
     }
 
-  
+    
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1300px){
+
+    p {
+        font-size: 16px;
+    }
+
+    body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text {
+        width: 40%;
+    }
+    
+
+    body .containerPresentation .containerPresentation__info {    
+        margin-left: 7em;
+    }
+
+    body .containerPresentation .containerPresentation__mobiles {              
+        width: 50%;
+    }
+
+    h1 {      
+        font-size: 4em;
+    }
+
+    .mobile1{
+
+        transition: all 1s;
+        transform: translate(53px, 42px) !important;
+        height: 19em;
+       
+    }
+    .mobile2{
+      
+        animation: animationMobile infinite ease-in-out 3s 0s;
+        z-index: 2;
+        height: 21em;
+    }
+    .mobile3{
+       
+        transition: all 1s;
+        transform: translate(-52px, 81px) !important;
+        height: 19em;
+    }
+
+    .mobile3:hover{
+        transform: translate(10px, -10px) scale(1.09) !important;
+        
+        
+    }
+
+    .mobile1:hover{
+        transform: translate(-10px, -10px) scale(1.09) !important;
+    }
+
+    @keyframes animationMobile {
+        0%{
+           transform: translate(0px, -10px) ; 
+        }
+        30%{
+            transform: translate(0px, 0px)  ;          
+        }
+        60%{
+            transform: translate(0px, 5px) ; 
+        }
+        100%{
+            transform: translate(0px, -10px) ; 
+        }
+    }
+
+    body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
+        height: 239px;
+    }
 
 }
 
-@media only screen and (max-width : 576px){
+   
+// @media only screen and (max-width : 992px){
+//     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
+//         height: 188px;
+//     }
+
+// }
+  
+
+
+
+@media only screen and (max-width : 992px){
     // BLOQUE 1////////////////////////////////////////////////////
 
     p {
@@ -101,6 +186,20 @@
                 .mobile3:hover{
                     transform: translate(10px, -100px) ;                   
                     
+                }
+                @keyframes animationMobile {
+                    0%{
+                       transform: translate(0px, -10px) scale(1.09); 
+                    }
+                    30%{
+                        transform: translate(0px, 0px)  scale(1.09);          
+                    }
+                    60%{
+                        transform: translate(0px, 5px)  scale(1.09); 
+                    }
+                    100%{
+                        transform: translate(0px, -10px)  scale(1.09); 
+                    }
                 }
             }
         }   
@@ -194,7 +293,15 @@
     }    
 }
 
-@media only screen and (max-width : 412px){
+@media only screen and (max-width : 574px){
+    body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
+        height: 215px;
+        margin: 6% 4%;
+    }
+
+}
+
+@media only screen and (max-width : 500px){
 
     h1{
         font-size: 5em;
@@ -218,7 +325,7 @@
                 // width: auto;
                 // margin: 2em;
                 img{
-                    width: 9em;
+                    width: 7em;
                 }
                 .mobile1:hover{
                     transform: translate(10px, -60px) scale(0.9) ;                   
@@ -234,7 +341,7 @@
        } 
 
        main{
-            height: 67em;
+            height: auto;
             .containerMain{
                 .containerMain__img{
 
@@ -273,7 +380,7 @@
                
                 .portfolioContainer__project__img--trait {
                     height: 183px;
-                    margin: 8% 7%;
+                    margin: 8% 1%;
                 }
             }
     
@@ -290,7 +397,7 @@
     }
 
     p {
-        font-size: 21px;
+        font-size: 16px;
         color: whitesmoke;
         font-weight: 100;
     }
@@ -339,8 +446,8 @@
         }
 
         .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
-            height: 158px;
-            margin: 10% 7%;
+            height: 144px;
+            margin: 10% 4%;
         }
 
 

@@ -8,7 +8,7 @@
 h1{
     text-align: left;
         
-    font-size: 6em;
+    font-size: 4em;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     /* color: whitesmoke; */
@@ -35,7 +35,7 @@ h1{
 
 
 p{
-    font-size: 22px;;
+    font-size: 20px;;
     color: whitesmoke;  
 }
 
@@ -80,7 +80,7 @@ body{
         flex-direction: row;
         align-items: center;
 
-        height: 46em;
+        height: 100vh;
         background: radial-gradient(circle, rgb(150, 88, 78) 0%, rgb(26, 10, 10) 100%);
 
         // CONTAINER PRESENTATION INGO 
@@ -132,42 +132,42 @@ body{
             .mobile1{
 
                 transition: all 1s;
-                transform: translate(100px, 41px);
+                transform: translate(120px, 0px) scale(0.7);
                
             }
             .mobile2{
-              
+                
                 animation: animationMobile infinite ease-in-out 3s 0s;
                 z-index: 2;
             }
             .mobile3{
                
                 transition: all 1s;
-                transform: translate(-101px, 72px);
+                transform: translate(-110px, 87px) scale(0.7);
             }
 
             .mobile3:hover{
-                transform: translate(-10px, -70px) scale(0.9);
+                transform: translate(-10px, 0px) scale(0.9);
                 
                 
             }
 
             .mobile1:hover{
-                transform: translate(-10px, -70px) scale(0.9);
+                transform: translate(-10px, 0px) scale(0.9);
             }
 
             @keyframes animationMobile {
                 0%{
-                   transform: translate(0px, -10px); 
+                   transform: translate(0px, -10px) scale(0.9); 
                 }
                 30%{
-                    transform: translate(0px, 0px);          
+                    transform: translate(0px, 0px)  scale(0.9);          
                 }
                 60%{
-                    transform: translate(0px, 5px); 
+                    transform: translate(0px, 5px)  scale(0.9); 
                 }
                 100%{
-                    transform: translate(0px, -10px); 
+                    transform: translate(0px, -10px)  scale(0.9); 
                 }
             }
         }
@@ -184,8 +184,9 @@ body{
         justify-content: center;
         align-items: center;
         position: relative;
+        // height: 100vh;
 
-        @include sizes (100%, 46em); 
+        @include sizes (100%, 100vh); 
         // margin: 7em auto;            
         
         // CONTAINER MAIN
@@ -254,12 +255,12 @@ body{
             display: flex;
             align-items: center;
             margin-bottom: 5%;
-            
+            flex-wrap: wrap;
+            width: 80%;
     
             .containerDevicons__icon{
-                z-index: 3;
-                width: 5em;
-                height: 5em;
+                z-index: 3;          
+                height: 4em;
                 background: white;           
                 margin: 1%;
                 padding: 5px;
@@ -305,7 +306,7 @@ body{
             // transform:  translateY(-100px);
       
             background: linear-gradient(90deg, black 0%, #621818 73%);
-            @include sizes (100%, 47em); 
+            @include sizes (100%, 100vh); 
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -316,9 +317,8 @@ body{
 
             .portfolioContainer__project__text{
             
-                width: 35%;
+                width: 42%;
                 height: auto;
-                margin-top: 5%;
                
                 h2{
                     font-weight: 300;
@@ -353,7 +353,12 @@ body{
                 
             }
             .portfolioContainer__project__img{
-                width: 55%;
+                // width: 55%;
+                width: 49%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
                     
                 
                 .portfolioContainer__project__img--trait{                 
@@ -372,8 +377,8 @@ body{
             }
 
             .portfolioContainer__project__img--trait:hover{
-                transform: scale(1.1) translate(0px, -20px);;
-                box-shadow: -12px 17px 18px #10161759;
+                transform: rotate(3deg) ;
+                box-shadow: -3px 4px 10px #0b0c0cb0;
             }
             
         }
@@ -387,7 +392,7 @@ body{
 
     // CONTACTO
     #contact{
-        height: 46em;
+        height: 100vh;
         // background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(150,88,78,1) 73%);
         background: radial-gradient(circle, rgb(150, 88, 78) 0%, rgb(26, 10, 10) 100%);
         .subtittle--background{

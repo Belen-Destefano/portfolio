@@ -22,31 +22,31 @@ h3 {
   background-image: url(../images/ilserranoFondo.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-size: cover; }
 
 .creativaFondo-image {
   background-image: url(../images/creativaFondo.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-size: cover; }
 
 .stoneFondo-image {
   background-image: url(../images/stoneFondo.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-size: cover; }
 
 .selvageFondo-image {
   background-image: url(../images/selvageFondo.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-size: cover; }
 
 .tecnoFondo-image {
   background-image: url(../images/tecnoFondo.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-size: cover; }
 
 * {
   Margin: 0;
@@ -54,7 +54,7 @@ h3 {
 
 h1 {
   text-align: left;
-  font-size: 6em;
+  font-size: 4em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   /* color: whitesmoke; */
@@ -71,7 +71,7 @@ h1 {
   color: whitesmoke; }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
   color: whitesmoke; }
 
 body {
@@ -97,7 +97,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    height: 46em;
+    height: 100vh;
     background: radial-gradient(circle, #96584e 0%, #1a0a0a 100%); }
     body .containerPresentation .containerPresentation__info {
       width: 40%;
@@ -130,27 +130,27 @@ body {
       width: 64%; }
       body .containerPresentation .containerPresentation__mobiles .mobile1 {
         transition: all 1s;
-        transform: translate(100px, 41px); }
+        transform: translate(120px, 0px) scale(0.7); }
       body .containerPresentation .containerPresentation__mobiles .mobile2 {
         animation: animationMobile infinite ease-in-out 3s 0s;
         z-index: 2; }
       body .containerPresentation .containerPresentation__mobiles .mobile3 {
         transition: all 1s;
-        transform: translate(-101px, 72px); }
+        transform: translate(-110px, 87px) scale(0.7); }
       body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
-        transform: translate(-10px, -70px) scale(0.9); }
+        transform: translate(-10px, 0px) scale(0.9); }
       body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
-        transform: translate(-10px, -70px) scale(0.9); }
+        transform: translate(-10px, 0px) scale(0.9); }
 
 @keyframes animationMobile {
   0% {
-    transform: translate(0px, -10px); }
+    transform: translate(0px, -10px) scale(0.9); }
   30% {
-    transform: translate(0px, 0px); }
+    transform: translate(0px, 0px) scale(0.9); }
   60% {
-    transform: translate(0px, 5px); }
+    transform: translate(0px, 5px) scale(0.9); }
   100% {
-    transform: translate(0px, -10px); } }
+    transform: translate(0px, -10px) scale(0.9); } }
   body main {
     background: radial-gradient(circle, #8e8484 0%, #262525 90%);
     display: flex;
@@ -159,7 +159,7 @@ body {
     align-items: center;
     position: relative;
     width: 100%;
-    height: 46em; }
+    height: 100vh; }
     body main .containerMain {
       display: flex;
       flex-direction: row;
@@ -193,11 +193,12 @@ body {
       justify-content: center;
       display: flex;
       align-items: center;
-      margin-bottom: 5%; }
+      margin-bottom: 5%;
+      flex-wrap: wrap;
+      width: 80%; }
       body main .containerDevicons .containerDevicons__icon {
         z-index: 3;
-        width: 5em;
-        height: 5em;
+        height: 4em;
         background: white;
         margin: 1%;
         padding: 5px;
@@ -210,7 +211,7 @@ body {
     body .portfolioContainer .portfolioContainer__project {
       background: linear-gradient(90deg, black 0%, #621818 73%);
       width: 100%;
-      height: 47em;
+      height: 100vh;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -218,9 +219,8 @@ body {
       opacity: 0;
       transition: .7s ease-in-out all; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text {
-        width: 35%;
-        height: auto;
-        margin-top: 5%; }
+        width: 42%;
+        height: auto; }
         body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text h2 {
           font-weight: 300;
           margin: 1em 0em; }
@@ -243,7 +243,11 @@ body {
         body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text .portfolioContainer__project__btn:hover a {
           color: white; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
-        width: 55%; }
+        width: 49%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
         body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
           height: 325px;
           box-shadow: -7px 10px 9px #10161759;
@@ -251,13 +255,13 @@ body {
           transition: all 0.5s;
           margin: 24% 9%; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img--trait:hover {
-        transform: scale(1.1) translate(0px, -20px);
-        box-shadow: -12px 17px 18px #10161759; }
+        transform: rotate(3deg);
+        box-shadow: -3px 4px 10px #0b0c0cb0; }
     body .portfolioContainer .visible {
       opacity: 1 !important;
       transform: translateY(0px); }
   body #contact {
-    height: 46em;
+    height: 100vh;
     background: radial-gradient(circle, #96584e 0%, #1a0a0a 100%); }
     body #contact .subtittle--background {
       background-color: #3c1515;
@@ -278,12 +282,12 @@ body {
         font-size: 24px; }
 
 /*RESPONSIVE*/
-@media only screen and (min-width: 1324px) and (max-width: 1448px) {
+@media only screen and (min-width: 1365px) and (max-width: 2500px) {
   h1 {
     text-align: left;
     font-size: 5em; }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img--trait:hover {
-    transform: scale(1.1) translate(34px, -35px); }
+    transform: rotate(3deg); }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
     height: 312px;
     box-shadow: -7px 10px 9px #10161759;
@@ -291,7 +295,46 @@ body {
     transition: all 0.5s;
     margin: 24% 5%; } }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  p {
+    font-size: 16px; }
+  body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text {
+    width: 40%; }
+  body .containerPresentation .containerPresentation__info {
+    margin-left: 7em; }
+  body .containerPresentation .containerPresentation__mobiles {
+    width: 50%; }
+  h1 {
+    font-size: 4em; }
+  .mobile1 {
+    transition: all 1s;
+    transform: translate(53px, 42px) !important;
+    height: 19em; }
+  .mobile2 {
+    animation: animationMobile infinite ease-in-out 3s 0s;
+    z-index: 2;
+    height: 21em; }
+  .mobile3 {
+    transition: all 1s;
+    transform: translate(-52px, 81px) !important;
+    height: 19em; }
+  .mobile3:hover {
+    transform: translate(10px, -10px) scale(1.09) !important; }
+  .mobile1:hover {
+    transform: translate(-10px, -10px) scale(1.09) !important; }
+  @keyframes animationMobile {
+    0% {
+      transform: translate(0px, -10px); }
+    30% {
+      transform: translate(0px, 0px); }
+    60% {
+      transform: translate(0px, 5px); }
+    100% {
+      transform: translate(0px, -10px); } }
+  body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
+    height: 239px; } }
+
+@media only screen and (max-width: 992px) {
   p {
     font-size: 23px;
     color: whitesmoke;
@@ -343,6 +386,15 @@ body {
         transform: translate(-10px, -60px); }
       body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
         transform: translate(10px, -100px); }
+  @keyframes animationMobile {
+    0% {
+      transform: translate(0px, -10px) scale(1.09); }
+    30% {
+      transform: translate(0px, 0px) scale(1.09); }
+    60% {
+      transform: translate(0px, 5px) scale(1.09); }
+    100% {
+      transform: translate(0px, -10px) scale(1.09); } }
   body main {
     background: radial-gradient(circle, #8e8484 0%, #262525 90%);
     display: flex;
@@ -400,7 +452,12 @@ body {
         height: 259px;
         margin: 6% 6%; } }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 574px) {
+  body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
+    height: 215px;
+    margin: 6% 4%; } }
+
+@media only screen and (max-width: 500px) {
   h1 {
     font-size: 5em; }
   h3 {
@@ -411,13 +468,13 @@ body {
   body .containerPresentation .containerPresentation__info {
     width: max-content; }
   body .containerPresentation .containerPresentation__mobiles img {
-    width: 9em; }
+    width: 7em; }
   body .containerPresentation .containerPresentation__mobiles .mobile1:hover {
     transform: translate(10px, -60px) scale(0.9); }
   body .containerPresentation .containerPresentation__mobiles .mobile3:hover {
     transform: translate(-10px, -80px) scale(0.9); }
   body main {
-    height: 67em; }
+    height: auto; }
     body main .containerMain .containerMain__img .left {
       transform: translateX(-196px) scale(0.5); }
     body main .containerMain .containerMain__img .visible {
@@ -430,19 +487,19 @@ body {
     flex-direction: column;
     height: auto; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text h2 {
-      font-size: 33px; }
+      font-size: 30px; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
       width: 100%;
       order: -1; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
         height: 183px;
-        margin: 8% 7%; } }
+        margin: 8% 1%; } }
 
 @media only screen and (max-width: 360px) {
   h3 {
     font-size: 24px; }
   p {
-    font-size: 21px;
+    font-size: 16px;
     color: whitesmoke;
     font-weight: 100; }
   body h1 {
@@ -463,8 +520,8 @@ body {
     flex-direction: column;
     height: auto; }
   body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
-    height: 158px;
-    margin: 10% 7%; }
+    height: 144px;
+    margin: 10% 4%; }
   body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
     background-size: 25em; }
   body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
