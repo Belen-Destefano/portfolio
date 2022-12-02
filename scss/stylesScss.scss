@@ -44,31 +44,34 @@ body{
     background: radial-gradient(circle, rgba(195,182,182,1) 0%, rgba(29,29,29,1) 100%);  
     
     header{
-        margin-top: 1%;
-        position: fixed;
-        z-index: 100;
-        .firma{    
-            margin: 23px 10px;  
-            
-            img{
-                width: 5em;
-            }
-        }
-        
-        nav{
-            margin: 23px 10px;
-            display: flex;
-            flex-direction: column;
-            // background-color: #a39b9b7a;
-            width: 80px;
-            // padding: auto;
-            // border-radius: 15px;
-            align-items: center;
 
-            button {
-                margin: 2px;
+        .containerHeader{
+            margin-top: 1%;
+            position: fixed;
+            z-index: 100;
+            .firma{    
+                margin: 23px 10px;  
+                
+                img{
+                    width: 5em;
+                }
             }
-           
+            
+            nav{
+                margin: 23px 10px;
+                display: flex;
+                flex-direction: column;
+                // background-color: #a39b9b7a;
+                width: 80px;
+                // padding: auto;
+                // border-radius: 15px;
+                align-items: center;
+
+                button {
+                    margin: 2px;
+                }
+            
+            }
         }
     }
 

@@ -121,31 +121,35 @@
         
         header{
             display: flex;
-            /* background-image: linear-gradient(-225deg, #d3d5d5, #a7aaaf 29%, #a9d1e6 67%, #c9cfd4); */
-            position: fixed;
-            backdrop-filter: blur(15px);
-            /* background: rgba(0,0,0,.3); */
-            width: 20em;
-            margin: auto;
-            justify-content: space-evenly;
-            bottom: 1em;
-            left: 23%;
-            border-radius: 14px;
             flex-direction: row;
-            background: #1b1212a3;
-            margin-top: 0%;
-
-            .firma {
-                margin: 15px 10px;
-            }
-            
-            nav{
-                margin: 12px 10px;
+            justify-content: center;
+            .containerHeader{
                 display: flex;
+                /* background-image: linear-gradient(-225deg, #d3d5d5, #a7aaaf 29%, #a9d1e6 67%, #c9cfd4); */
+                position: fixed;
+                backdrop-filter: blur(15px);
+                /* background: rgba(0,0,0,.3); */
+                width: 20em;
+                margin: auto;
+                justify-content: space-evenly;
+                bottom: 1em;           
+                border-radius: 14px;
                 flex-direction: row;
-                width: auto;
-                justify-content: center;
-                align-items: center;
+                background: #1b1212a3;
+                margin-top: 0%;
+
+                .firma {
+                    margin: 15px 10px;
+                }
+                
+                nav{
+                    margin: 12px 10px;
+                    display: flex;
+                    flex-direction: row;
+                    width: auto;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
         }
 
@@ -311,9 +315,10 @@
     }
 
     body{
-        header {          
-            left: 11%;
-            bottom: 3em;
+        header {       
+            .containerHeader{  
+                bottom: 3em;
+            }
         }
        .containerPresentation{
         
@@ -410,10 +415,7 @@
         h2 {
             font-size: 40px;
         }
-
-       header {
-            left: 7%;
-        }
+   
 
         .containerPresentation {
             .containerPresentation__info{
@@ -431,7 +433,7 @@
                 }
 
                 .mobile3:hover{
-                    transform: translate(5px, -80px) scale(0.9) ;                   
+                    transform: translate(0px, -80px) scale(0.9) ;                   
                     
                 }
 
@@ -472,6 +474,10 @@
 
 
 
+    }
+
+    body header .containerHeader .firma {
+        margin: 13px 4px;
     }
 
 }
