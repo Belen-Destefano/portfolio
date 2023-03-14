@@ -48,6 +48,12 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.SignInUpFondo-image {
+  background-image: url(../images/SignInUpFondo.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 * {
   Margin: 0;
   padding: 0; }

@@ -7,6 +7,7 @@ const proyect2 = document.getElementById ('proyect2')
 const proyect3 = document.getElementById ('proyect3')
 const proyect4 = document.getElementById ('proyect4')
 const proyect5 = document.getElementById ('proyect5')
+const proyect6 = document.getElementById ('proyect6')
 
 
 
@@ -43,4 +44,5 @@ observer.observe(proyect2);
 observer.observe(proyect3);
 observer.observe(proyect4);
 observer.observe(proyect5);
+observer.observe(proyect6);
 
