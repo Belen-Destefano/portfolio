@@ -444,19 +444,10 @@ body {
         margin-bottom: 5px; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__text h3 {
         margin-bottom: 15px; }
-    body .portfolioContainer .portfolioContainer__project .tecnoFondo-image {
-      background: none; }
-    body .portfolioContainer .portfolioContainer__project .selvageFondo-image {
-      background: none; }
-    body .portfolioContainer .portfolioContainer__project .stoneFondo-image {
-      background: none; }
-    body .portfolioContainer .portfolioContainer__project .creativaFondo-image {
-      background: none; }
-    body .portfolioContainer .portfolioContainer__project .ilserranoFondo-image {
-      background: none; }
     body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img {
       width: 100%;
-      order: -1; }
+      order: -1;
+      background: none; }
       body .portfolioContainer .portfolioContainer__project .portfolioContainer__project__img .portfolioContainer__project__img--trait {
         height: 259px;
         margin: 6% 6%; } }

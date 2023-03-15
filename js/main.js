@@ -1,4 +1,4 @@
-// api Intersection Observer
+// api Intersection Observer para la carga de los elementos que contienen los proyectos cuando entran al viewport 
 
 
 const bodyImg = document.getElementById ('bodyImg')
@@ -8,9 +8,6 @@ const proyect3 = document.getElementById ('proyect3')
 const proyect4 = document.getElementById ('proyect4')
 const proyect5 = document.getElementById ('proyect5')
 const proyect6 = document.getElementById ('proyect6')
-
-
-
 
 
 const  chargeMain = (entradas, observador) => {
@@ -33,9 +30,6 @@ const observer = new IntersectionObserver(chargeMain,{
     // el threshold es, si queres que aparte cuando todo el elemento este dentro, iria 1.0, si cuando la mitad ya ingreso 0.5
     // threshold: 0.2
 });
-
-
-
 
 
 observer.observe(bodyImg);
