@@ -27,9 +27,9 @@ function showingData(data){
 
     //contenedor
     let divContenedor = document.createElement("div");
-    divContenedor.setAttribute("id", "proyect" + (i + 1));
+    divContenedor.setAttribute("id", "proyect" + ((data.length) - i));  
     divContenedor.classList.add("portfolioContainer__project");
-    // divContenedor.classList.add("visible");
+
 
     // asignar el fondo en función del índice utilizando el operador módulo
     divContenedor.style.background = background[i % background.length];
@@ -45,6 +45,7 @@ function showingData(data){
     //contenedorImg
     let divContenedorImg = document.createElement("div");     
     divContenedorImg.classList.add("portfolioContainer__project__img");
+    divContenedorImg.classList.add((data.length) - i + "-background");
 
     //ACA VAAAAA
     divContenedorText.innerHTML = `

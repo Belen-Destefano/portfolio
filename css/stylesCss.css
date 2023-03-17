@@ -18,38 +18,38 @@ h3 {
   color: whitesmoke; }
 
 /*image website*/
-.ilserranoFondo-image {
-  background-image: url(../images/ilserranoFondo.png);
+.1-background {
+  background-image: url(../images/1.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.creativaFondo-image {
-  background-image: url(../images/creativaFondo.png);
+.2-background {
+  background-image: url(../images/2.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.stoneFondo-image {
-  background-image: url(../images/stoneFondo.png);
+.3-background {
+  background-image: url(../images/3.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.selvageFondo-image {
-  background-image: url(../images/selvageFondo.png);
+.4-background {
+  background-image: url(../images/4.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.tecnoFondo-image {
-  background-image: url(../images/tecnoFondo.png);
+.5-background {
+  background-image: url(../images/5.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.SignInUpFondo-image {
-  background-image: url(../images/SignInUpFondo.png);
+.6-background {
+  background-image: url(../images/6.png);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
