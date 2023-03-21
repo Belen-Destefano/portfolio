@@ -13,10 +13,12 @@
     }
 }
 
+
+
 //image website
 /*image website*/
 @each $imageSite in 1, 2, 3, 4, 5, 6{
-    .#{$imageSite}-background{
+    .b#{$imageSite}background{
         background-image: url(../images/#{$imageSite}.png); height: 100%; background-repeat: no-repeat; background-size: cover;
     }
 } 

@@ -35,17 +35,17 @@
     {    
         "titulo": "Desarrollo Web",    
         "subtitulo": "Creativa Publicitaria",    
-        "descripcion": " Sitio web realizado en equipo: trabajé junto a otro desarrollador siguiendo el diseño ejecutado por dos diseñadoras UX/UI. El proyecto fue desarrollado para una empresa que se especializa en creacion y desarrollo de marcas. El sitio contiene HTML, CSS, SASS y Bootstrap. Trabajamos en conjunto usando GIT y manejo de repositorio. El sitio es Web responsive.",
+        "descripcion": " Sitio web realizado en equipo: trabajé junto a otro desarrollador siguiendo el diseño ejecutado por dos diseñadoras UX/UI. El proyecto fue desarrollado para una empresa que se especializa en creacion y desarrollo de marcas. Para llevarlo a cabo utilizamos tecnologías como HTML, CSS, SASS y Bootstrap. Trabajamos en conjunto usando GIT y manejo de repositorio, lo que nos permitió mantener un registro de todas las modificaciones realizadas y colaborar de manera efectiva en el desarrollo. El sitio es Web responsive.",
         "link": "https://belen-destefano.github.io/creativaPublicitaria/",
         "fondoA": "",
         "fondoB": "images/creatrivaPublicitaria.jpg"   
     },
     {    
         "titulo": "Desarrollo Web",    
-        "subtitulo": "Il Serrano",    
-        "descripcion": "Sitio web de información turística de mi lugar en el mundo que tanto amo, Córdoba Traslasierra. Fue mi primer proyecto de Desarrollo Web, creado con HTML, CSS, SASS y Bootstrap. Para el diseño me basé en mi primer sitio creado con wordpress, logrando imitar con códigos los bloques que me había facilitado en su momento este famoso sistema de gestión de contenidos web. Utilicé GIT para hacer las modificaciones y registrar los cambios. El sitio es Web responsive.",
-        "link": "https://belen-destefano.github.io/ilSerrano/",
+        "subtitulo": "Got Guilt",    
+        "descripcion": "Sitio web que ofrece certificados personalizados de mentira y sin validez, a modo de chiste, los cuales te liberan de la culpa ocacionada por errores cometidos en el pasado. La idea es que el certificado les permita superar de manera humorística ciertas desiciones que tomaron y luego les genero arrepentimiento. Para llevar a cabo este proyecto de Desarrollo Web, utilice HTML, CSS y Bootstrap. Asimismo, he trabajado en base a un diseño de UX/UI creado por profesionales en la materia, con el fin de garantizar una experiencia de usuario óptima y satisfactoria. Utilicé GIT para mantener un registro de todas las modificaciones realizadas. El sitio es Web responsive.",
+        "link": "https://belen-destefano.github.io/got-guilt/",
         "fondoA": "",
-        "fondoB": "images/ilSerrano.jpg"   
+        "fondoB": "images/gotGuilt.jpg"   
     }
 ]

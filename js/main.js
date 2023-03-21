@@ -45,7 +45,7 @@ function showingData(data){
     //contenedorImg
     let divContenedorImg = document.createElement("div");     
     divContenedorImg.classList.add("portfolioContainer__project__img");
-    divContenedorImg.classList.add((data.length) - i + "-background");
+    divContenedorImg.classList.add("b"+((data.length) - i)+ "background");
 
     //ACA VAAAAA
     divContenedorText.innerHTML = `
